@@ -1,0 +1,140 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Heebo&family=Mulish:wght@400;900&family=Poppins:wght@300;400;500&family=Ubuntu:ital,wght@1,300&display=swap');@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Heebo&family=Mulish:wght@400;900&family=Poppins:wght@300;400&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+}
+.nav{
+    background-color:#262E60;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 45px;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+.content{
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-weight: 600px;
+    font-size: 22px;
+    line-height: 1px;
+}
+.sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.sub-title p{
+    text-align: center;
+    font-size: 19px;
+    color: #494B52;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {	
+    
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .content{
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-weight: 600px;
+        font-size: 20px;
+        line-height: 1px;
+    }
+    .sub-title{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+    .sub-title p{
+        text-align: center;
+        font-size: 17px;
+        color: #494B52;
+    }
+	
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {	
+    .content{
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+     }
+    .title h2{
+        text-align: center;
+        font-size: 18px;
+        color: #2A2B34;
+    }
+    .sub-title p{
+        text-align: center;
+        font-size: 11px;
+        color: #494B52;
+    }
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 	
+    .content{
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        
+     }
+    .title h2{
+        text-align: center;
+        font-family: 'Poppins';
+        font-size: 18px;
+        color: #2A2B34;
+    }
+    .sub-title p{
+        text-align: center;
+        font-size: 11px;
+        color: #494B52;
+    }
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {	
+    .content{
+        margin-top: 170px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    .title h2{
+        text-align: center;
+        font-size: 18px;
+        color: #2A2B34;
+    }
+    .sub-title p{
+        text-align: center;
+        font-size: 11px;
+        color: #494B52;
+    }
+}
